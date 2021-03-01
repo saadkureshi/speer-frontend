@@ -1,0 +1,11 @@
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron > h1 {
+  font-size: 65px;
+}
+
+.jumbotron > p {
+  font-size: 32px;
+}
