@@ -1,11 +1,26 @@
-.jumbotron {
+.jumbotron-hero {
   background-color: transparent;
 }
 
-.jumbotron > h1 {
-  font-size: 65px;
+.jumbotron-hero > h1 {
+  font-family: Helvetica, Arial;
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
 }
 
-.jumbotron > p {
-  font-size: 32px;
+.jumbotron-hero > p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.jumbotron-hero button {
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  border-radius: 5rem;
+  border: none;
+  width: 9rem;
+  height: 3rem;
 }

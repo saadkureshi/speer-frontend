@@ -11,3 +11,12 @@
 .carousel-item > .d-block {
   height: 100vh;
 }
+
+.carousel-item > img {
+  filter: brightness(50%);
+}
+
+.carousel-item > .carousel-caption {
+  bottom: 20%;
+}
+

@@ -1,0 +1,48 @@
+.red-page {
+  background-color: #D34848;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-page > .container-fluid {
+  width: 90%;
+  border: 1px black solid;
+}
+
+.red-page img {
+  width: 12rem;
+  height: auto;
+}
+
+.jumbotron-red {
+  background-color: transparent;
+  padding: 0;
+}
+
+.jumbotron-red > h1 {
+  color: white;
+  font-family: Helvetica, Arial;
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+}
+
+.jumbotron-red > p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  width: 70%;
+}
+
+.jumbotron-red button {
+  font-weight: bold;
+  background: white;
+  color: #D34848;
+  border-radius: 5rem;
+  border: none;
+  width: 12rem;
+  height: 3rem;
+}
