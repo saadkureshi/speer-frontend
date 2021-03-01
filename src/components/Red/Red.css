@@ -8,13 +8,22 @@
 }
 
 .red-page > .container-fluid {
-  width: 90%;
-  border: 1px black solid;
+  width: 100%;
+}
+
+.red-page .text-image-row {
+  height: 30rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .red-page img {
   width: 12rem;
   height: auto;
+}
+
+.red-page .speaker1 {
+  padding-bottom: 16rem;
 }
 
 .jumbotron-red {

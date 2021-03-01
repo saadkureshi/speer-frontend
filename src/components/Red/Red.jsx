@@ -14,11 +14,11 @@ function Red() {
   return (
     <div className="red-page">
       <Container fluid>
-        <Row>
+        {/* <Row>
           <Col>menu</Col>
           <Col>button</Col>
-        </Row>
-        <Row>
+        </Row> */}
+        <Row className="text-image-row">
           <Col xs={6}>
             <Jumbotron className="jumbotron-red">
               <h1>SUPERIOR SOUND</h1>
@@ -29,10 +29,10 @@ function Red() {
             </Jumbotron>
           </Col>
           <Col md="auto">
-            <img src="images/speaker-1.png" alt="speaker1"/>
+            <img className="speaker1" src="images/speaker-1.png" alt="speaker1"/>
           </Col>
           <Col md="auto">
-            <img src="images/speaker-2.png" alt="speaker2"/>
+            <img className="speaker2" src="images/speaker-2.png" alt="speaker2"/>
           </Col>
         </Row>
       </Container>
