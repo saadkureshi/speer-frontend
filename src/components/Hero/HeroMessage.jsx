@@ -15,7 +15,7 @@ function HeroMessage() {
         <p>
           Experience your favourite artists like never before and from the comfort of your own home.
         </p>
-          <Button>TRY IT NOW</Button>
+          <Button className="gradient-button">TRY IT NOW</Button>
       </Jumbotron>
     </div>
   )

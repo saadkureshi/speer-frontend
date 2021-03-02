@@ -4,27 +4,27 @@ import './HamburgerMenu.css';
 
 function HamburgerMenu() {
 
-  const [menuView, setMenuView] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuView(!menuView);
+  function onClickMenu(){
+    document.getElementById("menu").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
   }
 
   return (
     <div className="hamburger-menu">
-      <div className="menu-container">
-        <div className="top-row">
-          <i onClick={toggleMenu} class="fas fa-bars fa-2x"></i>
-          <span>EXP|CON</span>
+      <div id="menu-bar">
+        <div id="menu" onClick={onClickMenu}>
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
         </div>
-        {menuView &&
-          <div className="menu-options">
-          <p>WHAT IS IT</p>
-          <p>PERKS</p>
-          <p>PRICING</p>
-          </div>
-        }
+        <ul class="nav" id="nav">
+          <li><a href="#">WHAT IS IT</a></li>
+          <li><a href="#">PERKS</a></li>
+          <li><a href="#">PRICING</a></li>
+        </ul>
       </div>
+      <div class="menu-bg" id="menu-bg"></div>
     </div>
   )
 }
