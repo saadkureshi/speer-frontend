@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 import './HamburgerMenu.css';
 
 function HamburgerMenu() {
@@ -14,17 +13,19 @@ function HamburgerMenu() {
     <div className="hamburger-menu">
       <div id="menu-bar">
         <div id="menu" onClick={onClickMenu}>
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
+          <div id="bar1" className="bar"></div>
+          <div id="bar2" className="bar"></div>
+          <div id="bar3" className="bar"></div>
         </div>
-        <ul class="nav" id="nav">
+        <ul className="nav" id="nav">
           <li><a href="#">WHAT IS IT</a></li>
           <li><a href="#">PERKS</a></li>
           <li><a href="#">PRICING</a></li>
         </ul>
       </div>
-      <div class="menu-bg" id="menu-bg"></div>
+      <div className="menu-bg" id="menu-bg"></div>
+      <span className="company">EXP|CON</span>
+      
     </div>
   )
 }
