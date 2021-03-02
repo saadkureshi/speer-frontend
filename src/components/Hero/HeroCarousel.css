@@ -3,6 +3,8 @@
 }
 
 .carousel-indicators > li {
+  background-color: transparent;
+  border: 2px white solid;
   width: 1rem;
   height: 1rem;
   border-radius: 100%;

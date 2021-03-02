@@ -1,4 +1,5 @@
 .red-page {
+  cursor: url('./cursor.png'), auto;
   background-color: #D34848;
   width: 100%;
   height: 100vh;

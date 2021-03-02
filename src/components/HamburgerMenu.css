@@ -1,3 +1,8 @@
+.hamburger-menu {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+}
 #menu {
 	width: 35px;
 	height: 30px;
@@ -27,14 +32,12 @@
 #bar3 {
 	transform: translateY(4px);
 }
-.nav li a {
-	color: #fff;
-	text-decoration: none;
-}
-.nav li a:hover {
+.nav li:hover {
 	font-weight: bold;
 }
 .nav li {
+	cursor: pointer;
+	color: white;
 	list-style: none;
   font-size: 2rem;
 	padding: 0.1rem 0;

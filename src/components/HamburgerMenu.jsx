@@ -18,9 +18,9 @@ function HamburgerMenu() {
           <div id="bar3" className="bar"></div>
         </div>
         <ul className="nav" id="nav">
-          <li><a href="#">WHAT IS IT</a></li>
-          <li><a href="#">PERKS</a></li>
-          <li><a href="#">PRICING</a></li>
+          <li>WHAT IS IT</li>
+          <li>PERKS</li>
+          <li>PRICING</li>
         </ul>
       </div>
       <div className="menu-bg" id="menu-bg"></div>
